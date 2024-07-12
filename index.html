@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lenovo</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+</head>
+<body>
+	<div class = "navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+			<a href="index.html" class="navbar-left"><img id = "logo" src="img/lenovo.png"></a>
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+				<ul class = "nav navbar-nav navbar-right">
+					<li class = "active"><a href = "index.html">Home</a></li>
+					<li><a href = "https://www.lenovo.com/us/en/laptops/">Find Your Lenovo</a></li>
+					<li><a href = "yourown.html">Build Your Own PC</a></li>
+					<li><a href = "https://docs.qualcomm.com/bundle/publicresource/87-71417-1_REV_F_Snapdragon_X_Elite_Product_Brief.pdf">Snapdragon X Elite</a></li>
+					<li class = "dropdown">
+						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href = "https://www.tiktok.com/@lenovo">TikTok</a></li>
+							<li><a href = "https://www.facebook.com/lenovo/">Facebook</a></li>
+							<li><a href = "https://www.instagram.com/lenovo/">Instagram</a></li>
+							<li><a href = "https://www.youtube.com/lenovo">YouTube</a></li>
+						</ul>
+					</li>		
+					<li><a href = "#contact" data-toggle="modal">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class = "container">
+		<div class = "jumbotron">
+			<center><h1>Lenovo</h1>
+			<p>(unofficial website)</p>
+			<a href = "https://www.lenovo.com/us/en/pc/"class = "btn btn-success">Buy Lenovo Products Now</a></center>
+		</div> 
+	</div>
+	<div id = "carousel" class = "carousel slide">
+		<ol class = "carousel-indicators">
+			<li data-target = "#carousel" data-slide-to = "0" class = "active"></li>
+			<li data-target = "#carousel" data-slide-to = "1"></li>
+			<li data-target = "#carousel" data-slide-to = "2"></li>
+		</ol>
+		<div class = "carousel-inner">
+			<div class = "item active">
+				<img class = "images" src = "img/yours.jpg" alt = "Build Your Own PC" class = "img-responsive">
+			</div>
+			<div class = "item">
+				<img class = "images"src = "img/dragon.jpeg" alt = "Snapdragon X Elite" class = "img-responsive">
+				<div class = "carousel-caption">
+					<h3>Qualcomm Snapdragon X Elite</h3>
+				</div>
+			</div>
+			<div class = "item">
+				<img class = "images"src = "img/thing.png" alt = "thing" class = "img-responsive">
+			</div>
+		</div>
+		<a class = "carousel-control left" href = "#carousel" data-slide = "prev">
+			<span class = "icon-prev"></span>
+		</a>
+		<a class = "carousel-control right" href = "#carousel" data-slide = "next">
+			<span class = "icon-next"></span>
+		</a>
+	</div>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-3">
+				<h3>Laptops</h3>
+				<p>Find a portable, speedy computer that caters to your every need.</p>
+				<a href = "https://www.animal-crossing.com/new-horizons/buy/" class = "btn btn-success">Buy Now</a>
+			</div>
+			<div class = "col-md-3">
+				<h3>Lenovo Yoga Slim 7x</h3>
+				<p>Open yourself to a new world of creativity with Lenovo's newest content creator offering.</p>
+				<a href = "https://www.lenovo.com/us/en/p/laptops/yoga/yoga-slim-series/yoga-slim-7x-gen-9-(14-inch-snapdragon)/len101y0049" class = "btn btn-success">Buy Now</a>
+			</div>
+			<div class = "col-md-3">
+				<h3>Accessories</h3>
+				<p>Get the perfect gear to go with your devices.</p>
+				<a href = "https://www.lenovo.com/us/en/accessories-and-software/" class = "btn btn-success">Buy Now</a>
+			</div>
+				<h3>Snapdragon X Elite</h3>
+				<p>Learn about the processor spearheading Lenovo's new generation of computers.</p>
+				<a href = "https://docs.qualcomm.com/bundle/publicresource/87-71417-1_REV_F_Snapdragon_X_Elite_Product_Brief.pdf" class = "btn btn-success">Learn</a>
+		</div>
+	</div>
+	<div class = "navbar navbar-inverse navbar-fixed-bottom">
+		<div class = "container">
+			<p class = "navbar-text pull-left">Site by Manvith Malali. Rolled out 7/12/2024.</p>
+			<a href = "https://www.lenovo.com/" class = "navbar-btn btn-danger btn pull-right">Official Lenovo Website</a>
+		</div>
+	</div>
+	<div class = "modal fade" id = "contact" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<form class = "form-horizontal">
+					<div class = "modal-header">
+						<h4>Contact Lenovo</h4>
+					</div>
+					<div class = "modal-body">
+						<div class = "form-group">
+							<label for = "contact-name" class = "col-lg-2 control-label">Name</label>
+							<div class = "col-lg-10">
+								<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+							</div>
+						</div>
+						<div class = "form-group">
+							<label for = "contact-email" class = "col-lg-2 control-label">Email</label>
+							<div class = "col-lg-10">
+								<input type = "email" class = "form-control" id = "contact-email" placeholder = "username@example.com">
+							</div>
+						</div>
+						<div class = "form-group">
+							<label for = "contact-msg" class = "col-lg-2 control-label">Message</label>
+							<div class = "col-lg-10">
+								<textarea class = "form-control" rows = "8"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class = "modal-footer">
+						<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+						<button class = "btn btn-info" type = "submit">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
